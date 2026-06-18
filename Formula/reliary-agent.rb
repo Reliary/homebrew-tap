@@ -7,20 +7,20 @@ class ReliaryAgent < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Reliary/reliary-agent/releases/download/v0.6.4/reliary-v0.6.4-aarch64-apple-darwin.tar.gz"
-      sha256 "7c80cc038a3af1f3577f8fba7c5e0966ff9537a86b06a0d414c56f26984ac00e"
+      sha256 "7c4ecdc2ae8326ab585294fb94485750b4f50d3f9f825a34962f8dc77592f62c"
     else
       url "https://github.com/Reliary/reliary-agent/releases/download/v0.6.4/reliary-v0.6.4-x86_64-apple-darwin.tar.gz"
-      sha256 "c3fee8438dedb6f131fc8210855649e5342c3cc34fa14c87961bd5c2209f34b5"
+      sha256 "0047ea1637b77def110fcd54072ba092a768a4b29621d0c2eb214791d946052c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Reliary/reliary-agent/releases/download/v0.6.4/reliary-v0.6.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4cb05d9fa67e3213b06f02380e409435c4295d2bd14e0a1a951e5155b4b57955"
+      sha256 "edeb222c63899afd8ac21ecd6929ea3047b0535b434541804195a8dd08ecece0"
     else
       url "https://github.com/Reliary/reliary-agent/releases/download/v0.6.4/reliary-v0.6.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "545276e4ca02488d2eacbff8570f40750eb84305d976ce4670b1567bbe9429aa"
+      sha256 "9a5d270ba45018adffe0bd81a4c1bf78736491e65c19a8ff9a0c425aa6d0d6d7"
     end
   end
 
